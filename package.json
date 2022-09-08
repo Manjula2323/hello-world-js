@@ -1,0 +1,31 @@
+{
+  "name": "hello-world-js",
+  "version": "2.0.0",
+  "description": "hello-world-js",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node ./src/server.js",
+    "test": "jest",
+    "build": "echo Test build completed! No package was uploaded"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "express",
+    "babel"
+  ],
+  "author": "Venkata Ramana Gali",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset": "^1.1.7",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.17.3",
+    "jest": "^27.5.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.1",
+    "request": "^2.88.2"
+  }
+}
